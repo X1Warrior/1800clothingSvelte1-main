@@ -151,11 +151,11 @@
   {/if}
   <div class="viewer">
     <div class="bookBox">
-      {#if pdfURL !== './assets/pdfs/defaultView.pdf' }
+      <!-- {#if pdfURL !== './assets/pdfs/defaultView.pdf' }
         <a class="download" href={pdfBase + ".pdf"} download
           >Download Decade <Fa icon={faDownload} /></a
         >
-      {/if }
+      {/if } -->
     </div>
     <div class="viewerBox">
       {#if pdfURL === './assets/pdfs/defaultView.pdf'}
