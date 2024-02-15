@@ -321,10 +321,9 @@
           class="searchBox"
           type="text"
           placeholder="Search..."
+          
         />
-        <div>
-          <button on:click={clearResults}>&#x2718</button>
-        </div>
+
       </form>
       <ul class="items costumeGrid ">
         {#each paginatedItems as item}

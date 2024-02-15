@@ -86,6 +86,12 @@
             <input type="radio" name="chapter" />
           </label>
         </NavItem>
+        <NavItem>
+          <label on:click={() => handleViewerUpdate("1890s")}>
+            1890-1899
+            <input type="radio" name="chapter" />
+          </label>
+        </NavItem>
       </Nav>
     </div>
   </div>
