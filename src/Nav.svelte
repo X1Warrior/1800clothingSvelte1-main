@@ -55,10 +55,11 @@
   }
   header img {
     max-height: 60px;
+    padding: 10px;
   }
   .title {
-    padding: 0;
-    margin: 0;
+    padding: 10;
+    margin: 10;
   }
   .aboutButton {
     background-color: unset;
@@ -70,7 +71,7 @@
     border-radius: 8px;
     color: white;
     background-color: rgb(26, 26, 26);
-    padding: 5px 10px;
+    padding: 3px 10px;
     border: none;
   }
 
@@ -208,6 +209,6 @@
       display: block;
       place-self: center;
     }
-    header img { width: 100%; max-width: 380px; }
+    header img { width: 100%; max-width: 380px; padding-top: 10px;}
   }
 </style>
