@@ -41,6 +41,15 @@
     align-items: flex-start;
     height: calc(100% - 55px);
     padding: 10px;
+    background-color: rgb(255, 255, 255);
+  }
+
+  .cardBody{
+    border-radius: 10px 10px 0 0;
+  }
+
+  .cardBtn{
+    font-size: 12px;
   }
 
   .cardFooter {
@@ -63,7 +72,8 @@
     border: none;
     margin-right: 4px;
     display: inline-block;
-    font-size: 16px;
+    font-size: 12px;
+    cursor: not-allowed;
   }
   .cardBody img {
     height: auto;
@@ -75,7 +85,6 @@
   }
   .caption {
     padding: 0 0 1rem 1rem;
-    min-width: 250px;
     width: 100%;
     display: block;
   }
@@ -102,6 +111,7 @@
     .cardBody {
       width: 100%;
       min-width: none;
+      border-radius: 10px 10px 0 0;
     }
     .cardBody img {
       max-width: 80px;

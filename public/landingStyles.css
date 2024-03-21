@@ -37,6 +37,15 @@ div.card {
   transform: scale(1.5);
 } */
 
+.cardBtn.svelte-15ngfr2{
+  cursor: not-allowed;
+  font-size: 12pt;
+}
+
+.svelte-15ngfr2{
+  font-size: 12pt;
+}
+
 @media screen and (max-width: 900px) {
   div.card-body {
     min-height: 26vh;

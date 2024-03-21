@@ -415,10 +415,11 @@
     height: 100%;
     width: 100%;
     position: relative;
+    background-color: #C8BEB5;
   }
 
   .costumesWrapper {
-    max-width: 1265px;
+    max-width: 1400px;
     margin: 0 auto;
   }
 
@@ -503,8 +504,9 @@
     padding-top: 10px;
   }
   .modalImageArea {
-    min-width: 160px;
+    min-width: 120px;
     max-width: 330px;
+    background-color: white;
   }
   .cardModalImage {
     width: 100%;
@@ -531,6 +533,8 @@
     margin-top: 10px;
     overflow-wrap: anywhere;
   }
+
+
 
   .costumeModalFooter {
     border-top: 1px solid rgb(211, 211, 211);
@@ -585,10 +589,10 @@
 
   @media screen and (max-width: 1500px) {
     .costumesWrapper {
-      max-width: 900px;
+      max-width: 1200px;
     }
     .costumeGrid {
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
     }
   }
 

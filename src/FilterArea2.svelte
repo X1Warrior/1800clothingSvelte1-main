@@ -259,9 +259,11 @@
       <form>
         <div class="collapseContainer">
           <div class="collapsed">
+            <div id="toggler1">
             <div on:click={() => (isOpen = !isOpen)}>
               <NavItem>Date Range</NavItem>
             </div>
+          </div>
 
             <Collapse {isOpen}>
               <NavItem>
@@ -469,11 +471,18 @@
 </div>
 
 <style>
+  #toggler1,
+#toggler,
+  #toggler2,
+  #toggler3 {
+    background-color: #5B544D;
+  }
   div.filters {
-    width: 100%;
+    width: 90%;
     border-right: 1px solid rgba(128, 128, 128, 0.5);
-    background-color: rgb(241, 229, 212);
+    background-color: #636052;
     position: relative;
+    color: black
   }
   .filters h5 {
     margin: 0;
@@ -517,6 +526,9 @@
       background-color: #ddd;
       height: unset;
       position: relative;
+    }
+    div.filters{
+      width: 100%;
     }
     .formLinks {
       display: none;

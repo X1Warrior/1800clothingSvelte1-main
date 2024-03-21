@@ -32,7 +32,9 @@
         <Route path="/" component={Landing} />
       </div>
     </Router>
+
   </main>
+
 </div>
 
 <style>
@@ -54,5 +56,7 @@
   footer{
     background-color: #333;
     height: 20px;
+    color: white;
+    text-align: center;
   }
 </style>
