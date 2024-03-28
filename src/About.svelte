@@ -94,14 +94,15 @@
     padding: 0 20px;
   }
   .welcomeMessageBackground {
-    background-color: rgb(235, 221, 205);
+    background-color: #31363F;
   }
   .welcomeMessage {
     padding: 50px 0;
     width: 600px;
     margin: 0 auto;
     text-align: center;
-    background-color: rgb(235, 221, 205);
+    color: white;
+    background-color: #31363F;
   }
   .welcomeMessage h2 {
     padding: 0;
