@@ -476,19 +476,21 @@
   #toggler2,
   #toggler3 {
     background-color: #00635D;
+    color: white;
   }
   div.filters {
     width: 90%;
     border-right: 1px solid rgba(128, 128, 128, 0.5);
     background-color: #31363F;
     position: relative;
-    color: white;
+    color: black;
   }
   .filters h5 {
     margin: 0;
     padding: 0.25rem 0.75rem;
     border-bottom: 1px solid rgba(128, 128, 128, 0.5);
     background-color: #31363F;
+    color: white;
   }
   .collapseContainer {
     background-color: white;
