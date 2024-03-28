@@ -70,7 +70,7 @@
   .viewButton {
     border-radius: 8px;
     color: white;
-    background-color: rgb(26, 26, 26);
+    background-color: #00635D;
     padding: 3px 10px;
     border: none;
   }

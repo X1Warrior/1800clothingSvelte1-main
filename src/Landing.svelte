@@ -415,7 +415,7 @@
     height: 100%;
     width: 100%;
     position: relative;
-    background-color: #C8BEB5;
+    background-color: #EEEEEE;
   }
 
   .costumesWrapper {
@@ -591,14 +591,18 @@
     .costumesWrapper {
       max-width: 1200px;
     }
-    .costumeGrid {
+
+  }
+
+  @media screen and (max-width: 1300px) {
+        .costumeGrid {
       grid-template-columns: 1fr 1fr 1fr;
     }
   }
 
   @media screen and (max-width: 1065px) {
     .costumeGrid {
-      grid-template-columns: 1fr;
+      grid-template-columns: 1fr 1fr;
     }
   }
 
@@ -606,12 +610,16 @@
     .landing {
       grid-template-columns: 1fr;
     }
+
   }
 
   /* costume modal media queries */
   @media screen and (max-width: 930px) {
     .costumeModal {
       width: 95%;
+    }
+    .costumeGrid {
+      grid-template-columns: 1fr;
     }
   }
 
