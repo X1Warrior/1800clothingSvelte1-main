@@ -65,6 +65,7 @@
     background-color: unset;
     border: none;
     margin-right: .45rem !important;
+    border-radius: 8px;
   }
 
   .viewButton {

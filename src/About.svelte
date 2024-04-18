@@ -94,7 +94,7 @@
     padding: 0 20px;
   }
   .welcomeMessageBackground {
-    background-color: #31363F;
+    background-color: #00635D;
   }
   .welcomeMessage {
     padding: 50px 0;
@@ -102,7 +102,7 @@
     margin: 0 auto;
     text-align: center;
     color: white;
-    background-color: #31363F;
+    background-color: #00635D;
   }
   .welcomeMessage h2 {
     padding: 0;

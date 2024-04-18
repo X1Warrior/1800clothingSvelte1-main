@@ -31,7 +31,7 @@
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.14);
     transition: all ease 0.3s;
     top: 0;
-    width: 250px;
+
   }
   .item:hover {
     top: 4px;
@@ -39,14 +39,10 @@
   }
   .item .cardBody {
     display: flex;
-    align-items: center;
-    height: 100%;
+    align-items: flex-start;
+    height: calc(100% - 55px);
     padding: 10px;
-    background-color: rgb(255, 255, 255);
-    flex-direction: column;
-    text-align: center;
-    min-height: 300px;
-    width: 100%;
+    overflow: hidden;
   }
 
   .cardBody{
@@ -70,6 +66,7 @@
     padding-top: 10px;
     height: 55px;
     overflow: hidden;
+    flex-wrap: nowrap;
   }
 
   .cardFooter .cardBtn {
@@ -82,16 +79,12 @@
     display: inline-block;
     font-size: 12px;
     cursor: not-allowed;
+   
   }
   .cardBody img {
     height: auto;
     object-fit: contain;
     vertical-align: top;
-    /* width: 100%;
-    max-height: 175px;
-    max-width: 130px;
-    min-height: 150px;
-    min-width: 100px; */
     width: 150px;
     height: 150px;
   }
@@ -99,9 +92,7 @@
     padding: 0 0 1rem 1rem;
     width: 100%;
     display: block;
-    height: 75px;
-    position: absolute;
-    bottom: 30px;
+    overflow: hidden;
   }
 
   .overflow-auto {

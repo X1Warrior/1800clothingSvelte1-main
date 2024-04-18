@@ -415,7 +415,7 @@
     height: 100%;
     width: 100%;
     position: relative;
-    background-color: #EEEEEE;
+    background-color: #e9e9e271;
   }
 
   .costumesWrapper {
@@ -428,7 +428,9 @@
     flex-wrap: wrap;
     padding: 1rem;
     grid-gap: 20px;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+
   }
   ul.costumeGrid {
     margin-bottom: 0;
