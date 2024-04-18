@@ -31,6 +31,7 @@
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.14);
     transition: all ease 0.3s;
     top: 0;
+    width: 250px;
   }
   .item:hover {
     top: 4px;
@@ -38,14 +39,20 @@
   }
   .item .cardBody {
     display: flex;
-    align-items: flex-start;
-    height: calc(100% - 55px);
+    align-items: center;
+    height: 100%;
     padding: 10px;
     background-color: rgb(255, 255, 255);
+    flex-direction: column;
+    text-align: center;
+    min-height: 300px;
+    width: 100%;
   }
 
   .cardBody{
     border-radius: 10px 10px 0 0;
+    height: 100%;
+    width: 100%;
   }
 
   .cardBtn{
@@ -59,9 +66,10 @@
     position: absolute;
     bottom: 0;
     width: 100%;
-    padding: 10px;
+    padding: 5px;
+    padding-top: 10px;
     height: 55px;
-    overflow: hidden; /* hides tags that are too long. change this in the future */
+    overflow: hidden;
   }
 
   .cardFooter .cardBtn {
@@ -79,14 +87,21 @@
     height: auto;
     object-fit: contain;
     vertical-align: top;
-    width: 100%;
+    /* width: 100%;
     max-height: 175px;
     max-width: 130px;
+    min-height: 150px;
+    min-width: 100px; */
+    width: 150px;
+    height: 150px;
   }
   .caption {
     padding: 0 0 1rem 1rem;
     width: 100%;
     display: block;
+    height: 75px;
+    position: absolute;
+    bottom: 30px;
   }
 
   .overflow-auto {
@@ -100,6 +115,7 @@
   @media screen and (max-width: 1065px) {
     .item {
       width: 100%;
+      height: 100%;
     }
   }
 

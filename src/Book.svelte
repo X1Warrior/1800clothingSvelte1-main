@@ -183,6 +183,7 @@
   .theBook {
     display: flex;
     height: calc(100vh - 60px);
+    background-color: #EEEEEE;
   }
 
   .mobileSelectText {
@@ -190,7 +191,7 @@
     border-bottom: 1px solid rgba(128, 128, 128, 0.5);
     text-align: center;
     font-size: 18px;
-    background-color: #F1E5D4;
+    background-color: #EEEEEE;
     padding: 8px 12px;
     display: none;
     cursor: pointer;
@@ -200,7 +201,7 @@
   .mobileNavigation {
     display: none;
     height: calc(100vh - 60px);
-    background-color: #F1E5D4;
+    background-color: #EEEEEE;
     z-index: 9;
     top: 60px;
     padding: 0;
@@ -208,7 +209,7 @@
   }
   .mobileNavigation h5 {
     text-align: center;
-    background-color: #F1E5D4;
+    background-color: white;
   }
   .mobileNavigation .bookLabel {
     text-align: left;
@@ -217,7 +218,7 @@
     padding: 15px 7px;
   }
   .mobileNavigation .active {
-    background-color:rgb(238, 238, 238);
+    background-color:rgb(169, 157, 157);
   }
   .mobileNavigation .bookLabel p {
     margin-left: 10px;
@@ -250,18 +251,20 @@
   .navigation {
     min-width: 209px;
     border-right: 1px solid rgba(128, 128, 128, 0.5);
-    background-color: rgb(235, 221, 205);
+    background-color: #EEEEEE;
     max-height: calc(100vh - 60px);
     height: 100%;
   }
   .navigation h5 {
-    background-color: #F1E5D4;
+    background-color: #dddada;
+    color: black;
     margin: 0;
     padding: 6px 12px;
     border-bottom: 1px solid rgba(128, 128, 128, 0.5);
   }
   .navigationBackground {
-    background-color: white;
+    background-color: #EEEEEE;
+    color: black
   }
   .download {
     text-align: right;
@@ -270,6 +273,7 @@
   }
   .viewer {
     margin: 0 auto;
+
   }
   .viewerBox {
     width: 70vw;
