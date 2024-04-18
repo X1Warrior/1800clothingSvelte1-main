@@ -598,7 +598,7 @@
 
   @media screen and (max-width: 1300px) {
         .costumeGrid {
-      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
     }
   }
 
